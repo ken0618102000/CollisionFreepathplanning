@@ -165,7 +165,7 @@
       <MkTypLibCompatible>false</MkTypLibCompatible>
       <ValidateAllParameters>true</ValidateAllParameters>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>$(IntDir)CollisionFree_pathplanning.tlb</TypeLibraryName>
+      <TypeLibraryName>$(IntDir)CollisionFreepathplanning.tlb</TypeLibraryName>
       <HeaderFileName>CollisionFree_pathplanning_h.h</HeaderFileName>
     </Midl>
     <ResourceCompile>
