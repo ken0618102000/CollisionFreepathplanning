@@ -684,14 +684,14 @@ int Output::clip_line(struct Edge *e)
 	
 	//line(x1,y1,x2,y2);
    //out_line();
-   CPen aPen;
-   COLORREF aColor = 0x00ff0000;         // Initialize with element color
-   aPen.CreatePen(PS_SOLID, 1, aColor);
-
-   CPen* pOldPen = pDC->SelectObject(&aPen);  // Select the pen
-   pDC->MoveTo((int)x1, (int)y1);
-   pDC->LineTo((int)x2, (int)y2);
-   pDC->SelectObject(pOldPen);                // Restore the old pen
+//    CPen aPen;
+//    COLORREF aColor = 0x00ff0000;         // Initialize with element color
+//    aPen.CreatePen(PS_SOLID, 1, aColor);
+// 
+//    CPen* pOldPen = pDC->SelectObject(&aPen);  // Select the pen
+//    pDC->MoveTo((int)x1, (int)y1);
+//    pDC->LineTo((int)x2, (int)y2);
+//    pDC->SelectObject(pOldPen);                // Restore the old pen
    return(0);
 }
 
