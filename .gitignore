@@ -259,3 +259,25 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/資料收集/新增資料夾/slave_recoder_4.avi
+/資料收集/新增資料夾/slave_recoder_3.avi
+/資料收集/新增資料夾/slave_recoder_2.avi
+/資料收集/新增資料夾/slave_recoder_1.avi
+/CollisionFree_pathplanning/資料收集/新增資料夾/slave_recoder_4.avi
+/CollisionFree_pathplanning/資料收集/新增資料夾/slave_recoder_3.avi
+/CollisionFree_pathplanning/資料收集/新增資料夾/slave_recoder_2.avi
+/CollisionFree_pathplanning/資料收集/新增資料夾/slave_recoder_1.avi
+/CollisionFree_pathplanning/資料收集/新增資料夾/L0 - 複製.png
+*.avi
+/CollisionFree_pathplanning/資料收集/無障礙物/car_path_efficiency.txt
+/CollisionFree_pathplanning/資料收集/測試資料_無障2/path_efficiency.m
+/CollisionFree_pathplanning/資料收集/測試資料_無障2/car_path_efficiency_old_fastupdate.txt
+/CollisionFree_pathplanning/資料收集/測試資料_無障2/car_path_efficiency_new_slowupdate.txt
+/CollisionFree_pathplanning/資料收集/測試資料_無障1/path_efficiency.m
+/CollisionFree_pathplanning/資料收集/測試資料_無障1/car_path_efficiency_old_slowupdate.txt
+/CollisionFree_pathplanning/資料收集/測試資料_無障1/car_path_efficiency_old_fastupdate.txt
+/CollisionFree_pathplanning/資料收集/測試資料_無障1/car_path_efficiency_new_slowupdate.txt
+/CollisionFree_pathplanning/資料收集/測試資料_無障1/car_path_efficiency_new_fastupdate.txt
+/CollisionFree_pathplanning/資料收集/右上障礙物/L0 - 複製.png
+/CollisionFree_pathplanning/資料收集/右上障礙物/car_path_efficiency.txt
+/CollisionFree_pathplanning/資料收集/path_efficiency.m
