@@ -283,3 +283,5 @@ __pycache__/
 /CollisionFree_pathplanning/資料收集/path_efficiency.m
 /CollisionFree_pathplanning/資料收集/有障礙物_數據分析/path_efficiency.m
 /CollisionFree_pathplanning/資料收集/有障礙物_數據分析/30_8.txt
+*.png
+*.txt
