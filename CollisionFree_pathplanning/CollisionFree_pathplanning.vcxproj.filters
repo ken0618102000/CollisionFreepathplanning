@@ -47,6 +47,9 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="K-ShortestPath.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="CollisionFreepathplanning.idl">
