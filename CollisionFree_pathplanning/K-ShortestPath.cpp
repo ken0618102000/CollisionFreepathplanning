@@ -266,7 +266,7 @@ Graph::Graph(int input_m_nVertexNum, int input_m_nEdgeNum, vector <CPoint> &inpu
 
 	for (loop1 = 0; loop1 < input_m_nEdgeNum; loop1++)
 	{
-		for (loop2 = 0; loop2 < input_m_nVertexNum; loop2++)
+		for (loop2 = 0; loop2 < input_m_nVertexNum; loop2++) //¬d¸ß½s¸¹
 		{
 
 			if (input_CPoint_savepoint1[loop1] == input_all_point_map_original[loop2])

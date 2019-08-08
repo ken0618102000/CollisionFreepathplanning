@@ -157,12 +157,10 @@ public:
 		out_stream << std::endl <<  "*********************************************" << std::endl;
 	}
 
-	void MyOut(std::vector <int> &show_path) const
+	void MyOut(std::vector <int> &show_path, double &path_m_dweight) const
 	{		
+		path_m_dweight = m_dWeight;
 		for (std::vector<BaseVertex*>::const_iterator pos = m_vtVertexList.begin(); pos != m_vtVertexList.end(); ++pos)
-		{
-//			(*pos)->PrintOut(out_stream);
-			show_path.push_back((*pos)->getID());			
-		}
+			show_path.push_back((*pos)->getID());
 	}
 };
