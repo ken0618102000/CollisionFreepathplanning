@@ -85,6 +85,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\boost_1_69_0\libs\polygon\example;E:\boost_1_69_0;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\boost_1_69_0\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -95,6 +97,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>E:\boost_1_69_0;E:\boost_1_69_0\libs\polygon\example;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\boost_1_69_0\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -133,16 +137,22 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <RegisterOutput>true</RegisterOutput>
+      <HeapReserveSize>100000000</HeapReserveSize>
+      <StackReserveSize>100000000</StackReserveSize>
+      <HeapCommitSize>10000000</HeapCommitSize>
+      <StackCommitSize>10000000</StackCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
       <ValidateAllParameters>true</ValidateAllParameters>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>$(IntDir)CollisionFree_pathplanning.tlb</TypeLibraryName>
+      <TypeLibraryName>$(IntDir)CollisionFreepathplanning.tlb</TypeLibraryName>
       <HeaderFileName>CollisionFree_pathplanning_h.h</HeaderFileName>
     </Midl>
     <ResourceCompile>
@@ -196,6 +206,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -207,7 +218,7 @@
       <MkTypLibCompatible>false</MkTypLibCompatible>
       <ValidateAllParameters>true</ValidateAllParameters>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>$(IntDir)CollisionFree_pathplanning.tlb</TypeLibraryName>
+      <TypeLibraryName>$(IntDir)CollisionFreepathplanning.tlb</TypeLibraryName>
       <HeaderFileName>CollisionFree_pathplanning_h.h</HeaderFileName>
     </Midl>
     <ResourceCompile>
