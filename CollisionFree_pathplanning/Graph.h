@@ -13,6 +13,7 @@
 #pragma once
 #include "set"
 #include "map"
+#include "opencv2/core/core.hpp"
 
 class Path : public BasePath
 {
@@ -62,7 +63,7 @@ public:
 	// Constructors and Destructor
 	Graph(const std::string& file_name);
 	Graph(const Graph& rGraph);
-	Graph(int input_m_nVertexNum, int input_m_nEdgeNum, std::vector <CPoint>& input_CPoint_savepoint1, std::vector <CPoint>& input_CPoint_savepoint2, std::vector <CPoint>& input_all_point_map_original);
+	Graph(int input_m_nVertexNum, int input_m_nEdgeNum, std::vector <cv::Point>& input_CPoint_savepoint1, std::vector <cv::Point>& input_CPoint_savepoint2, std::vector <cv::Point>& input_all_point_map_original);
 	~Graph(void);
 
 	void clear();

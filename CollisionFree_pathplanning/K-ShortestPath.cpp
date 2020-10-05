@@ -15,6 +15,7 @@ https://github.com/yan-qi/k-shortest-paths-cpp-version
 #include "Graph.h"
 #include "DijkstraShortestPathAlg.h"
 #include "YenTopKShortestPathsAlg.h"
+#include "opencv2/core/core.hpp"
 
 using namespace std;
 const double Graph::DISCONNECT = (numeric_limits<double>::max)();
@@ -255,7 +256,7 @@ Graph::Graph(const Graph& graph)
 	m_mpVertexIndex.insert(graph.m_mpVertexIndex.begin(), graph.m_mpVertexIndex.end());
 }
 
-Graph::Graph(int input_m_nVertexNum, int input_m_nEdgeNum, vector <CPoint> &input_CPoint_savepoint1, vector <CPoint> &input_CPoint_savepoint2, vector <CPoint> &input_all_point_map_original)
+Graph::Graph(int input_m_nVertexNum, int input_m_nEdgeNum, vector <cv::Point> &input_CPoint_savepoint1, vector <cv::Point> &input_CPoint_savepoint2, vector <cv::Point> &input_all_point_map_original)
 {
 	int start_vertex, end_vertex;
 	int loop1, loop2;
